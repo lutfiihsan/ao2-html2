@@ -24,7 +24,6 @@ body {
   }
 }
 
-
 /* Untuk Smartphone */
 /* Tambahkan breakpoint max-width: 670px */
 @media (max-width: 670px) {
