@@ -1,26 +1,23 @@
 body {
-  font-family: "Avenir Next";
+  font-family: monospace;
 }
 
 li {
   list-style: none;
 }
 
-.header {
-  background-color: #26d0c9;
-  color: #fff;
-  height: 90px;
-}
-
 .header-logo {
   float: left;
-  font-size: 36px;
-  padding: 20px 40px;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 14px 16px;
+  background-color: #402cad;
+  border-radius: 10px 10px;
 }
 
 .header-list li {
-  float: left;
-  padding: 33px 20px;
+  float: right;
+  padding: 33px 10px;
 }
 
 .main {
@@ -99,4 +96,31 @@ input, textarea {
 
 .footer-list li {
   padding-bottom: 20px;
+}
+.topnav {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #402cad;
+  border-radius: 10px 10px;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #e45b00;
+  color: white;
+  border-radius: 10px 10px;
 }
