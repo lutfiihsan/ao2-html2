@@ -143,13 +143,38 @@ li {
 
 /* End CSS Lutfi*/
 
-.section-title {
-  border-bottom: 2px solid #dee7ec;
-  font-size: 28px;
-  padding-bottom: 15px;
-  margin-bottom: 50px;
+
+.contact-title {
+  text-align:center;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.contact-paragraph {
+  text-align:center;
 }
 
+.contact-form {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+.contact-left {
+  width: 50%;
+  float: left;
+}
+.contact-left img {
+  width: 100%;
+}
+.contact-right {
+  width: 50%;
+  display: inline-block;
+  padding: 0px 20px;
+}
+.contact-right p{
+  margin: 0px;
+}
 .contents-item {
   float: left;
   margin-right: 30px;
@@ -160,16 +185,11 @@ li {
   margin-top: 30px;
 }
 
-.contact-form {
-  padding-top: 100px;
-}
-
-/* Tambahkan CSS untuk tags <input> dan <textarea> */
 input, textarea {
-  width: 400px;
+  width: 100%;
   margin-top: 10px;
-  margin-bottom: 30px;
-  padding: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
   font-size: 18px;
   border: 1px solid #dee7ec;
 }
