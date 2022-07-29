@@ -16,20 +16,12 @@ body {
   color: #10182f;
 }
 
-/* Untuk Tablet */
-/* Tambahkan breakpoint max-width: 1000px */
-@media (max-width: 1000px) {
-  .item {
-      width: 50%;
-  }
-}
-
-
-/* Untuk Smartphone */
-/* Tambahkan breakpoint max-width: 670px */
-@media (max-width: 670px) {
-  .item {
-      width: 100%;
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
   }
 }
 /* ---End CSS Lutfi Ihsan --- */
@@ -72,14 +64,14 @@ li {
 
 .contents {
   display: flex;
-  width: 1040px;
+  width: 100%;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 .card {
-  margin: 10px;
+  margin: 5px;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 6px;
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   width: 300px;
@@ -210,6 +202,7 @@ input, textarea {
 .topnav {
   background-color: rgb(255, 255, 255);
   overflow: hidden;
+  width: auto;
 }
 
 .topnav a {
